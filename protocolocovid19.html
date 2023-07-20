@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bienvenido al barret animaciones</title>
+    <link rel="shortcut icon" href="imagenes/Log.png" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- This site is optimized with the Yoast SEO plugin v12.1 -->
+    <meta name="description" content="Organizamos y realizamos cumpleaños eventos de empresa, comuniones, bodas en Tarragona, Reus, Cambrils,Barcelona, Salou. Cumpleaños infantiles" />
+    <link rel="canonical" href="http://www.barretanimaciones.es/index.html" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cumpleaños, Eventos de empresa, comuniones, bodas en Tarragona Reus Cambrils Salou - Organizadores" />
+    <meta property="og:description" content="Organizamos y realizamos cumpleaños eventos de empresa, comuniones, bodas en Tarragona, Reus, Cambrils, Barcelona, Salou. Cumpleaños infantiles" />
+    <meta property="og:url" content="http://www.barretanimaciones.es/index.html" />
+    <meta property="og:image" content="http://www.barretanimaciones.es/imagenes/Log.png">
+    <meta property="og:site_name" content="Cumpleaños Tarragona Reus" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel='dns-prefetch' href='//www.barretanimaciones.es' />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="css/covid.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+    <script defer src="js/jquery-3.5.1.min.js"></script>
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src=imagenes/Log.png class="logo-brand" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+              </svg>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogsantiguos.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bodasycomuniones.html">Bodas y Comuniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="protocolocovid19.html">Covid-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <li><a class="nav-link" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span>Contacto</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </section>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-content-center">
+                    <div class="modal-header">
+                        <h2 class="modal-title">
+                            <p>Contacta con nosotros</p>
+                        </h2>
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="formulario_contacto">
+                    <div class="modal-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputNombre">Nombre</label>
+                                <input type="text" class="form-control" id="Conacto_nombre" placeholder="Nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputApellido">Apellido</label>
+                                <input type="text" class="form-control" id="Conacto_apellido" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="Conacto_email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputTeléfono">Telefono</label>
+                            <input type="number" class="form-control" id="Conacto_teléfono" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputFecha">Fecha del evento</label>
+                            <input type="date" class="form-control" id="Conacto_fecha" placeholder="Fecha">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCiudad">Ciudad</label>
+                                <input type="text" class="form-control" id="Conacto_ciudad">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMensaje">Mensaje</label>
+                            <textarea class="form-control" id="Conacto_mensaje" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="Conacto_datos">
+                                <label class="form-check-label" for="gridCheck">
+                              Acepta enviarnos su datos <a data-cs-i18n-text="[]" data-cs-i18n-url="[]" href="/avisolegal.html" target="_blank">
+                                Leer </a>
+                            </label>
+                            </div>
+                        </div>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <button type="submit" id="enviar_consulta" class="btn-btn-primary">Enviar</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section id="Blog">
+        <section id="hero">
+            <div class="container">
+            </div>
+
+        </section>
+        <div class="container-fluid">
+            <div class="content-center">
+                <h1><b>Protocolo de Actuación Animación infantil Covid 19</b></h1>
+                <h3>COVID-19 GUÍA DE BUENAS PRÁCTICAS PARA LOS TRABAJADORES, CLIENTES Y USUARIOS DE EL BARRET.</h3>
+            </div>
+            <div class="content-center">
+                <p>El Barret, “Cristina Mora Ramos” con el DNI 48019093S ha elaborado su <b>protocolo de actuación para su animación infantil.</b>
+                </p>
+
+                <p>Nuestro protocolo pretende ser una herramienta de ayuda para que <b>los trabajadores y trabajadoras, clientes y usuarios</b> de las actividades de nuestra empresa, puedan dar una respuesta segura a la situación producida por el coronavirus
+                    COVID-19.
+                </p>
+                <p>El principal objetivo de nuestro protocolo es asegurar la actividad de animación infantil, <b>proteger la salud del personal</b>, de nuestros clientes y de nuestros usuarios (niños y niñas participantes en la animación).</p>
+
+                <div class="text">
+                    <h5><b>Fase 2/ Fase 3</b></h5>
+                </div>
+                <p><b>En el momento del montaje</b></p>
+                <ul class="list-inline">
+                    <li>
+                        <p>- Serà obligatirio el uso de mascarilla y guantes.</p>
+                    </li>
+                    <li>
+                        <p>- El material estará previamente desinfectado con agua y poca cantidad de lejia para su utilización.</p>
+                    </li>
+                    <li>
+                        <p>- Si hay más de 1 persona en el montaje se mantendrá la distancia para mayor seguridad, en caso de no poder cumplirlo se utilzará mascarilla.</p>
+                    </li>
+                </ul>
+
+                <p><b>Hora de la animación </b></p>
+                <ul class="list-inline">
+                    <li>
+                        <p>- Si se realizan varios grupos de animación, cada grupo tendrá su material preparado en un recipiente. Entre grupo y grupo se desinfectará el material. </p>
+                    </li>
+                    <li>
+                        <p>- Todo participante de la animación usará obligatoriamente la mascarilla, como también antes empezar y al finalizar la actividad tendrá que desinfectarse las manos con gel hidroalcohólico. </p>
+                    </li>
+                    <li>
+                        <p>- La empresa solo propocionará el gel hidroalcohólico a lo participantes y mascarilla y guantes para los trabajadores, como también instrumental de desinfección para el material.</p>
+                    </li>
+
+                    <li>
+                        <p>- A la hora de hacer colas y actividades se tomarán las medidas de distanciamiento 2 m/1,5m para mayor seguridad.</p>
+                    </li>
+                    <li>
+                        <p>- Ratios:</p>
+                    </li>
+                    <li>
+                        <p>FASE 2: 6 niños por cada monitor</p>
+                    </li>
+                    <li>
+                        <p>FASE 3: 12/13 niños por cada monitor</p>
+                    </li>
+                    <li>
+                        <p>- Podrán agruparse grupos de diferentes celebraciones si se la actuación es correcta (mascarilla y gel).</p>
+                    </li>
+                </ul>
+
+                <p><b>Recogida:</b></p>
+                <ul class="list-inline">
+                    <li>
+                        <p>El animador se encargará de recoger el material y desinfectarlo para próximas animaciones programadas. </p>
+                    </li>
+                </ul>
+
+                <div class="content-center">
+                    <p><b>Para la elaboración de la Guía se ha tenido en cuenta la siguiente documentación:</b></p>
+
+                    <p><b>COVID-19 GUÍA DE BUENAS PRÁCTICAS PARA LOS ESTABLECIMIENTOS Y TRABAJADORES DEL SECTOR TURÍSTICO.</b> Ministerio de Sanidad y Ministerio de Industria, Comercio, Turismo.</p>
+
+                    <p><b>PROCEDIMIENTO DE ACTUACIÓN PARA LOS SERVICIOS DE PREVENCIÓN DE RIESGOS LABORALES FRENTE A LA EXPOSICIÓN AL SARS-CoV-2.</b> Ministerio de Sanidad y Ministerio de Industria, Comercio, Turismo.</p>
+
+                    <p> <b>MEDIDAS PARA LA REDUCCIÓN DEL CONTAGIO POR EL CORONAVIRUS SARS-CoV-2.</b> Instituto de Calidad Turística Española.</p>
+
+                    <p><b>PROTOCOLOS Y MEDIDAS HIGIÉNICO SANITARIAS PARA EL DESARROLLO DE CAMPAMENTOS DE VERANO 2020.</b> Del colectivo nacional de Campamentos de Verano.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md">
+
+                <div class="card-columns" id="galeria">
+
+                    <!-- <div class="card">
+                <a href="#" data-toggle="modal" data-target="#exampleModal">
+                    <img src="imagenes/covid/2.jpg" alt="" class="card-img-top">
+                </a>
+                    </div>
+            
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                
+                    <button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <img src="imagenes/covid/2.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                </div>-->
+
+                </div>
+            </div>
+
+            <script>
+                var imagenes = [1, 2, 3, 4, 5, 6];
+                var galeria = document.getElementById('galeria')
+
+                for (imagen of imagenes) {
+                    galeria.innerHTML += `
+          <div class="card">
+            <a href="#" data-toggle="modal" data-target="#id${imagen}">
+                <img src="imagenes/covid/${imagen}.jpg" alt="" class="card-img-top">
+            </a>
+          </div>
+
+        <!--Modal-->
+            <div class="modal fade" id="id${imagen}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <img src="imagenes/covid/${imagen}.jpg" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+            `
+                }
+            </script>
+        </div>
+
+        <div class="content-center">
+            <h2> <b>BELLY PAINTING</b> Y SUS <b>MEDIDAS DE PRECAUCIÓN</b> en las sesiones.</h2>
+            <p>El Belly painting es una sesión donde se pinta la barriguita a la futura mami.</p>
+            <p>Se recomienda que esté de un mínimo de 30 semanas, ya que cuanto más grande y redondita esté la barriga, mejor queda el dibujo.</p>
+            <p>Una sesión de Belly Painting es la realización de una PINTURA en la barriguita de la futura mamá, con un diseño previamente acordado con ella. La duración de la sesión suele ser entre 60-90 minutos.</p>
+            <p>Para las sesiones sea aplicará las medidas de SEGURIDAD necesarias para la TRANQUILIDAD de todos. <b>Los pinceles estarán perfectamente DESINFECTADOS previamente con alcohol</b>. Antes de empezar la sesión se aplicará spray hidroalcohólico
+                en la zona donde pintaremos para más seguridad. Como también en las <b>manos</b> y la mascarilla será utilizada durante TODA LA SESIÓN.</p>
+
+        </div>
+        <section id="Redes sociales">
+            <div class="container-fluid">
+                <div class="content-center">
+                    <h2> Redes sociales</h2>
+                    <div class="row justify-content-md-center">
+                        <div class="col-sm" class="redes">
+                            <a href="https://www.facebook.com/el.barret.anima/">
+                                <img src="imagenes/redes/face.jpg" class="img-fluid redes" alt="redes"></a>
+                        </div>
+                        <div class="col-sm" class="redes">
+                            <a href="https://www.instagram.com/el.barret/">
+                                <img src="imagenes/redes/intagram.jpg" class="img-fluid redes" alt="redes"></a>
+                        </div>
+                        <div class="col-sm" class="redes">
+                            <a href="https://api.whatsapp.com/send?phone=34640392112/">
+                                <img src="imagenes/redes/whassap.jpg" class="img-fluid redes" alt="redes"></a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+
+    <section id="footer" class="bg-pink">
+        <div class="container">
+            <img src="imagenes/Log.png" class="logo-brand" alt="logo">
+            <ul class="list-inline">
+                <ul class="list-inline">
+                    <li class="list-inline-item footer-menu"><a href="blogsantiguos.html">Blog</a></li>
+                    <li class="list-inline-item footer-menu"><a href="bodasycomuniones.html"> Bodas y Comuniones</a></li>
+                    <li class="list-inline-item footer-menu"><a href="protocolocovid19.html">COVID-19</a></li>
+                    <li class="list-inline-item footer-menu"><a href="policy.html">Política de Cookies</a></li>
+                    <li class="list-inline-item footer-menu"><a href="avisolegal.html">Datos personales</a></li>
+                </ul>
+                <p>Contacto: animaciones.el.barret@gmail.com - 640392112</p>
+    </section>
+
+</body>
+<script src="js/form-scripts.js"></script>
+
+</html>
